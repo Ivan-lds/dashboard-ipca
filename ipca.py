@@ -352,6 +352,9 @@ with col6:
         },
         xaxis_title="Data",
         yaxis_title="IPCA",
+        yaxis=dict(
+            tickformat=".2f", 
+        ),
         width=900,   
         height=450,  
         barmode='group' 
