@@ -75,7 +75,7 @@ Antes de executar o projeto, você precisa ter:
 1. Clone ou baixe este repositório.
 2. Execute o comando abaixo para iniciar o Streamlit:
    ```bash
-   streamlit run app.py
+   streamlit run ipca.py
    ```
 3. Acesse o dashboard no navegador através do endereço exibido (geralmente `http://localhost:8501`).
 
