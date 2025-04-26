@@ -32,7 +32,7 @@ df['Mês'] = df['Data'].dt.month
 modelo = ExponentialSmoothing(df['IPCA'], trend='add', seasonal='add', seasonal_periods=12)
 modelo_fit = modelo.fit()
 
-futuro = pd.date_range(start=df['Data'].max(), periods=24, freq='ME')
+futuro = pd.date_range(start=df['Data'].max(), periods=24, freq='M')
 previsoes = modelo_fit.forecast(len(futuro))
 
 df_previsao = pd.DataFrame({'Data': futuro, 'IPCA': previsoes})
