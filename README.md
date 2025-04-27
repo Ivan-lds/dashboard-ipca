@@ -3,6 +3,7 @@
 ## Descrição do Projeto 📝
 Este projeto é um **dashboard interativo** desenvolvido em **Python**, utilizando bibliotecas como **Streamlit**, **Plotly** e **Pandas**. Ele fornece uma análise detalhada do **IPCA (Índice Nacional de Preços ao Consumidor Amplo)**, com dados obtidos diretamente da **API do IBGE**. O objetivo é apresentar visualizações dinâmicas e interativas para facilitar a análise do comportamento do IPCA ao longo do tempo, incluindo previsões e cenários de análise.
 
+Acesse: https://dashboard-ipca-2000-2026.streamlit.app
 ---
 
 ## Funcionalidades Principais 🚀
